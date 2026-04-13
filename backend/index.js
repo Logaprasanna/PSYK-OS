@@ -68,7 +68,7 @@ When given a journal entry, respond with a JSON object with exactly these fields
 "title"    - Short evocative title for the entry (3-6 words, sentence case).
 "emotion"  - The single dominant emotion (one word e.g. Anger, Joy, Grief, Hope).
 "valence"  - Exactly one of: "positive", "negative", or "neutral".
-"response" - A warm 2-4 paragraph reflective response. Be empathetic, engage with what they actually said.
+"response" - A warm 2-3 paragraph reflective response. Be empathetic, engage with what they actually said. The response should focus on the core of the entry and not get into the nitty gritty details of the entry.
 
 Return ONLY the JSON. No extra text.`,
         },
